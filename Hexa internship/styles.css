@@ -1,0 +1,107 @@
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+header {
+    width:"80%";
+    height: 300px;
+    background-color:#333;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+      width:"50%";
+    height: 80px;
+   font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+/* Navigation */
+nav ul {
+    
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Styling */
+.container {
+    
+    width: 80%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about p {
+    
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* Skills Section */
+#skills ul {
+    
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#skills ul li {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    color: #333;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
